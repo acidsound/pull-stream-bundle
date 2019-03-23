@@ -3,3 +3,13 @@
 *.log
 .idea
 .cache
+**/node_moduels
+**/*.log
+test
+node_modules
+build
+logs
+examples
+docs
+img
+pids

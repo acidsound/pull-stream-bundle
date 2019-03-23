@@ -15,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/acidsound/pull-stream-bundle.git"
   },
-  "keywords": ["reactive", "stream"],
+  "keywords": [
+    "reactive",
+    "stream"
+  ],
   "author": "spectrick@gmail.com",
   "license": "MIT",
   "bugs": {
@@ -23,12 +26,13 @@
   },
   "homepage": "https://github.com/acidsound/pull-stream-bundle#readme",
   "dependencies": {
-    "pull-stream": "^3.6.9",
     "pull-notify": "~0.1.1",
     "pull-pushable": "^2.2.0",
-    "pull-stringify": "^2.0.0"    
+    "pull-stream": "^3.6.9",
+    "pull-stringify": "^2.0.0"
   },
   "devDependencies": {
-    "aegir": "^18.2.1"
+    "aegir": "^18.2.1",
+    "dirty-chai": "^2.0.1"
   }
 }
