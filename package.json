@@ -1,0 +1,34 @@
+{
+  "name": "pull-stream-bundle",
+  "version": "1.0.0",
+  "description": "pull-stream bundle distribution",
+  "main": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "aegir build",
+    "release": "aegir release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acidsound/pull-stream-bundle.git"
+  },
+  "keywords": ["reactive", "stream"],
+  "author": "spectrick@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acidsound/pull-stream-bundle/issues"
+  },
+  "homepage": "https://github.com/acidsound/pull-stream-bundle#readme",
+  "dependencies": {
+    "pull-stream": "^3.6.9",
+    "pull-notify": "~0.1.1",
+    "pull-pushable": "^2.2.0",
+    "pull-stringify": "^2.0.0"    
+  },
+  "devDependencies": {
+    "aegir": "^18.2.1"
+  }
+}
