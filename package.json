@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "aegir build",
-    "release": "aegir release"
+    "release": "npm version patch && npm publish --access public"
   },
   "repository": {
     "type": "git",
