@@ -1,4 +1,13 @@
-import pull from "pull-stream";
+'use strict'
+
+const pull = require('pull-stream');
+const Pushable = require('pull-pushable');
+const Notify = require('pull-notify');
+const Stringify = require('pull-stringify');
+
 module.exports = {
-  pull
+  pull,
+  Stringify,
+  Pushable,
+  Notify
 };
